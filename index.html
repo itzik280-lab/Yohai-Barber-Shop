@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- ===== SEO ===== -->
-  <title>YOHAI BARBER | ספר בבאר שבע | תספורת גברים ועיצוב זקן</title>
-  <meta name="description" content="יוחאי ברבר שופ. תספורת גברים ועיצוב זקן, תספורות מטורפות בבאר שבע. קובעים תור בהודעת וואטסאפ אחת.">
-  <meta name="keywords" content="ספר בבאר שבע, ברבר בבאר שבע, תספורת גברים, עיצוב זקן, ברבר, ספר גברים, תספורת מקצועית, YOHAI Barber">
+  <title>YOHAI BARBER | יוחאי לבייב | ספר גברים בבאר שבע</title>
+  <meta name="description" content="יוחאי לבייב, ספר גברים בבאר שבע. 3+ שנות ניסיון בשינוי תדמית: תספורת קלאסית, קלאסית עם זקן ותספורת פרימיום, מותאמות לתווי הפנים. קובעים תור בהודעת וואטסאפ אחת.">
+  <meta name="keywords" content="ספר בבאר שבע, ספר גברים בבאר שבע, ברבר בבאר שבע, תספורת גברים, תספורת קלאסית, תספורת פרימיום, עיצוב זקן, יוחאי לבייב, YOHAI Barber">
   <meta name="author" content="YOHAI BARBER">
   <meta name="theme-color" content="#0B0B0C">
   <link rel="canonical" href="https://www.yohai-barber.co.il/">
@@ -16,18 +16,18 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   <meta property="og:site_name" content="YOHAI BARBER">
-  <meta property="og:title" content="YOHAI BARBER | ספר בבאר שבע">
-  <meta property="og:description" content="תספורת גברים ועיצוב זקן בבאר שבע. קובעים תור בוואטסאפ, בלי סיבובים.">
+  <meta property="og:title" content="יוחאי לבייב | ספר גברים בבאר שבע">
+  <meta property="og:description" content="תספורות מותאמות לתווי הפנים: קלאסית, קלאסית עם זקן ופרימיום. תור בהודעת וואטסאפ אחת.">
   <meta property="og:image" content="https://www.yohai-barber.co.il/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="YOHAI BARBER, ספר בבאר שבע">
+  <meta property="og:image:alt" content="YOHAI BARBER, יוחאי לבייב, ספר גברים בבאר שבע">
   <meta property="og:url" content="https://www.yohai-barber.co.il/">
 
   <!-- ===== Twitter ===== -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="YOHAI BARBER | ספר בבאר שבע">
-  <meta name="twitter:description" content="תספורת גברים ועיצוב זקן בבאר שבע. קובעים תור בוואטסאפ.">
+  <meta name="twitter:title" content="יוחאי לבייב | ספר גברים בבאר שבע">
+  <meta name="twitter:description" content="תספורות מותאמות לתווי הפנים. תור בהודעת וואטסאפ אחת.">
   <meta name="twitter:image" content="https://www.yohai-barber.co.il/images/og-image.jpg">
 
   <!-- ===== Icons ===== -->
@@ -307,7 +307,7 @@ section[id], div[id] { scroll-margin-top: 92px; }
 .about__values .v p { margin-top: .25rem; font-size: .9rem; color: var(--text-muted); line-height: 1.55; }
 
 /* ---------- SERVICES ---------- */
-.services__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; max-width: 880px; margin-inline: auto; }
+.services__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
 .service-card {
   position: relative; background: var(--surface); border: 1px solid var(--line);
   border-radius: var(--radius-lg); padding: 2rem 1.8rem; overflow: hidden;
@@ -352,14 +352,14 @@ section[id], div[id] { scroll-margin-top: 92px; }
 .booking__card { background: var(--black); border: 1px solid var(--line); border-radius: var(--radius-lg); overflow: hidden; }
 .booking__form { padding: clamp(1.6rem, 1.1rem + 2vw, 2.8rem); }
 
-.svc-select { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.svc-select { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; }
 .svc-opt { display: flex; align-items: center; gap: 1rem; padding: 1.1rem 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); cursor: pointer; transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease); background: var(--surface); position: relative; }
 .svc-opt:hover { border-color: rgba(197,164,99,.5); }
 .svc-opt input { position: absolute; opacity: 0; }
 .svc-opt .ck { width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--line); flex: none; position: relative; transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease); }
-.svc-opt .info { flex: 1; display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
-.svc-opt .info .nm { font-weight: 600; color: var(--text); }
-.svc-opt .info .pr { font-size: .9rem; color: var(--gold); white-space: nowrap; }
+.svc-opt .info { flex: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
+.svc-opt .info .nm { font-weight: 600; color: var(--text); line-height: 1.35; }
+.svc-opt .info .pr { font-size: .88rem; color: var(--gold); white-space: nowrap; }
 .svc-opt.selected { border-color: var(--gold); background: var(--surface-2); }
 .svc-opt.selected .ck { border-color: var(--gold); background: var(--gold); }
 .svc-opt.selected .ck::after { content: ""; position: absolute; inset: 5px; background: var(--black); border-radius: 50%; }
@@ -474,8 +474,8 @@ body.no-scroll { overflow: hidden; }
   .svc-select { grid-template-columns: 1fr; }
 }
 
-@media (max-width: 640px) {
-  .services__grid { grid-template-columns: 1fr; }
+@media (max-width: 900px) {
+  .services__grid { grid-template-columns: 1fr; max-width: 520px; margin-inline: auto; }
 }
 
 @media (max-width: 520px) {
@@ -496,9 +496,11 @@ body.no-scroll { overflow: hidden; }
     "@type": "BarberShop",
     "@id": "https://www.yohai-barber.co.il/",
     "name": "YOHAI BARBER",
+    "alternateName": "יוחאי לבייב",
     "url": "https://www.yohai-barber.co.il/",
     "image": "https://www.yohai-barber.co.il/images/og-image.jpg",
-    "description": "ספר בבאר שבע. תספורת גברים ועיצוב זקן, בתיאום אישי בוואטסאפ.",
+    "description": "יוחאי לבייב, ספר גברים בבאר שבע. תספורות מותאמות לתווי הפנים: קלאסית, קלאסית עם זקן ופרימיום. תיאום תור בוואטסאפ.",
+    "founder": { "@type": "Person", "name": "יוחאי לבייב", "alternateName": "Yohai Leviev" },
     "telephone": "+972527738538",
     "priceRange": "₪",
     "address": {
@@ -510,8 +512,9 @@ body.no-scroll { overflow: hidden; }
       "@type": "OfferCatalog",
       "name": "שירותים",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "תספורת" }, "price": "80", "priceCurrency": "ILS" },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "עיצוב זקן" }, "price": "50", "priceCurrency": "ILS" }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "תספורת קלאסית" }, "price": "70", "priceCurrency": "ILS" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "תספורת קלאסית + זקן" }, "price": "70", "priceCurrency": "ILS" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "תספורת פרימיום" }, "price": "130", "priceCurrency": "ILS" }
       ]
     }
   }
@@ -569,22 +572,22 @@ body.no-scroll { overflow: hidden; }
         <div class="hero__content reveal in">
           <span class="eyebrow hero__eyebrow">תספורת טובה לא צריכה הסברים.</span>
           <h1>פעם אחת תשב אצלי <em>ותבין.</em></h1>
-          <p class="hero__sub">אני יוחאי, ספר בבאר שבע. אצלי אין הצגות: אתה יושב, מספר לי מה בא לך, ואני עובד בשקט ובדיוק עד שזה יושב בול.</p>
+          <p class="hero__sub">אני יוחאי לבייב, ספר גברים בבאר שבע. תספורות מותאמות לתווי הפנים ומראה ייצוגי, לגברים שלא מתפשרים על הנראות שלהם.</p>
           <p class="hero__punch">נכנס רגיל. יוצא חד.</p>
           <div class="hero__actions">
             <a href="#booking" class="btn btn--primary btn--lg">קביעת תור בוואטסאפ</a>
             <a href="#gallery" class="btn btn--ghost btn--lg">לעבודות שלי</a>
           </div>
           <ul class="hero__trust">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>יחס אישי</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>בלי לחץ</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span class="num">3+</span>&nbsp;שנות ניסיון</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>שינוי תדמית לגברים</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>כל לקוח מקבל את הזמן שלו</li>
           </ul>
         </div>
 
         <div class="hero__media reveal in" data-delay="2">
           <div class="frame">
-            <img src="images/owner-portrait.jpg" alt="יוחאי, ספר בבאר שבע" width="1300" height="1625" fetchpriority="high">
+            <img src="images/owner-portrait.jpg" alt="יוחאי לבייב, ספר גברים בבאר שבע" width="1300" height="1625" fetchpriority="high">
           </div>
           <svg class="badge" viewBox="0 0 200 200" fill="none" aria-hidden="true">
             <circle cx="100" cy="100" r="84" stroke="currentColor" stroke-width="1.5"/>
@@ -603,12 +606,12 @@ body.no-scroll { overflow: hidden; }
     <!-- ============ STRIP ============ -->
     <div class="strip" aria-hidden="true">
       <div class="strip__track">
-        <span>תספורת גברים</span><span>עיצוב זקן</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
-        <span>תספורת גברים</span><span>עיצוב זקן</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
-        <span>תספורת גברים</span><span>עיצוב זקן</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
-        <span>תספורת גברים</span><span>עיצוב זקן</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
-        <span>תספורת גברים</span><span>עיצוב זקן</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
-        <span>תספורת גברים</span><span>עיצוב זקן</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
+        <span>תספורת קלאסית</span><span>עיצוב זקן</span><span>תספורת פרימיום</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
+        <span>תספורת קלאסית</span><span>עיצוב זקן</span><span>תספורת פרימיום</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
+        <span>תספורת קלאסית</span><span>עיצוב זקן</span><span>תספורת פרימיום</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
+        <span>תספורת קלאסית</span><span>עיצוב זקן</span><span>תספורת פרימיום</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
+        <span>תספורת קלאסית</span><span>עיצוב זקן</span><span>תספורת פרימיום</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
+        <span>תספורת קלאסית</span><span>עיצוב זקן</span><span>תספורת פרימיום</span><span>באר שבע</span><span class="ltr">YOHAI BARBER</span>
       </div>
     </div>
 
@@ -623,21 +626,21 @@ body.no-scroll { overflow: hidden; }
         </div>
         <div class="about__body reveal" data-delay="1">
           <span class="eyebrow">מי אני</span>
-          <h2>נעים להכיר, <em>אני יוחאי.</em></h2>
-          <p>מי שקובע אצלי יודע בדיוק מי מספר אותו ואיך זה ייצא.</p>
-          <p>אצלי בכיסא לא ממהרים. מדברים רגע, מבינים מה מתאים לך, ורק אז אני מתחיל. אם קו לא יושב לי טוב בעין, אני נשאר עליו עוד שעה אם צריך. אתה קם מהכיסא רק כשזה מדויק.</p>
+          <h2>זה לא עוד תספורת. <em>זו האומנות שלי.</em></h2>
+          <p>נעים להכיר, אני יוחאי לבייב, ספר גברים בבאר שבע. כל תספורת שאני יוצר מושקעת בהמון אנרגיה, השקעה ודיוק: ממחשבה על התספורת הנכונה ועד התאמה אישית מלאה.</p>
+          <p>אתה לא עוד לקוח בתור. אם עוד לא חווית תספורת אמיתית, אתה מוזמן לקבוע תור ולהגיע למספרה.</p>
           <div class="about__values">
             <div class="v">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
-              <div><h4>בגובה העיניים</h4><p>מדברים דקה לפני שמתחילים, כדי שיצא מה שאתה רוצה. לא מה שנוח לי.</p></div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M16 10h2.3a2.5 2.5 0 0 1 0 5H16"/><path d="M8 3.5c0 1 .8 1 .8 2s-.8 1-.8 2"/><path d="M11.8 3.5c0 1 .8 1 .8 2s-.8 1-.8 2"/></svg>
+              <div><h4>אספרסו קצר</h4><p>דקה לפני שמתחילים, אספרסו קצר. יושבים, מדברים, ורק אז ניגשים לעבודה.</p></div>
             </div>
             <div class="v">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <div><h4>בלי שעון עצר</h4><p>אתה לא עוד תור ברשימה. אני עובד עד שזה מדויק, גם אם זה לוקח עוד כמה דקות.</p></div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              <div><h4>תיאום ציפיות</h4><p>כל תספורת מתחילה בתיאום ציפיות, בשביל להביא את התוצאה המושלמת בשבילך.</p></div>
             </div>
             <div class="v">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
-              <div><h4>עבודה נקייה</h4><p>כלים מחוטאים, עמדה מסודרת וקווים חדים. ככה זה נראה אצלי, בכל תספורת.</p></div>
+              <div><h4>עבודה נקייה</h4><p>חיטוי אחרי כל לקוח. סדר וניקיון זה מאסט, בלי פשרות.</p></div>
             </div>
             <div class="v">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>
@@ -652,23 +655,29 @@ body.no-scroll { overflow: hidden; }
     <section class="section" id="services">
       <div class="container">
         <div class="section-head section-head--center reveal">
-          <span class="eyebrow">מה אני עושה</span>
-          <h2>אני עושה שני דברים, <em>ועושה אותם טוב.</em></h2>
-          <p class="sub">מה שצרצה זה מה שיהיה.</p>
+          <span class="eyebrow">שירותים ומחירים</span>
+          <h2>בחירת <em>תספורת.</em></h2>
+          <p class="sub">המחיר סופי ואין אותיות קטנות. מתלבט מה מתאים לך? תכתוב לי בוואטסאפ ונחליט ביחד.</p>
         </div>
 
         <div class="services__grid">
           <article class="service-card reveal" data-delay="1">
             <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="8.1" y1="8.1" x2="20" y2="20"/><line x1="8.1" y1="15.9" x2="20" y2="4"/></svg></div>
-            <h3>תספורת</h3>
-            <p>מכונה, מספריים או שילוב. תספורת שמותאמת לראש ולסטייל שלך, עם גימור נקי סביב האוזניים והעורף.</p>
-            <div class="row"><div class="price"><span class="num">₪80</span></div><button class="book-link" data-service="תספורת">לקביעת תור <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button></div>
+            <h3>תספורת קלאסית</h3>
+            <p>מכונה, מספריים וגימור נקי סביב האוזניים והעורף. תספורת מדויקת שמחזיקה יפה עד הפעם הבאה.</p>
+            <div class="row"><div class="price"><span class="num">₪70</span></div><button class="book-link" data-service="תספורת קלאסית">לקביעת תור <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button></div>
           </article>
           <article class="service-card reveal" data-delay="2">
             <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6c0 6 4 9 9 9s9-3 9-9"/><path d="M3 6h18"/><path d="M8 15c0 2 1.5 3 4 3s4-1 4-3"/></svg></div>
-            <h3>עיצוב זקן</h3>
-            <p>קו נקי, אורך אחיד וגימור מסודר. זקן שנראה פגז.</p>
-            <div class="row"><div class="price"><span class="num">₪50</span></div><button class="book-link" data-service="עיצוב זקן">לקביעת תור <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button></div>
+            <h3>תספורת קלאסית + זקן</h3>
+            <p>התספורת הקלאסית, יחד עם קו זקן נקי וגימור מסודר. יוצאים שלמים מכל הכיוונים.</p>
+            <div class="row"><div class="price"><span class="num">₪70</span></div><button class="book-link" data-service="תספורת קלאסית + זקן">לקביעת תור <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button></div>
+          </article>
+          <article class="service-card reveal" data-delay="3">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" transform="rotate(45 12 12)"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg></div>
+            <h3>תספורת פרימיום</h3>
+            <p>לשיער בינוני או ארוך בלבד: תספורות שמבוססות על עבודת מספריים, ודורשות זמן, דיוק ועיצוב מוקפד.</p>
+            <div class="row"><div class="price"><span class="num">₪130</span></div><button class="book-link" data-service="תספורת פרימיום">לקביעת תור <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button></div>
           </article>
         </div>
       </div>
@@ -678,7 +687,7 @@ body.no-scroll { overflow: hidden; }
     <section class="section" id="gallery">
       <div class="container">
         <div class="section-head section-head--center reveal">
-          <span class="eyebrow">עבודות אחרונות</span>
+          <span class="eyebrow">עבודות שלי</span>
           <h2>פחות דיבורים, <em>תראה בעצמך.</em></h2>
           <p class="sub">עבודות מהתקופה האחרונה, ישר מהכיסא. מה שאתה רואה זה מה שיוצא.</p>
         </div>
@@ -698,29 +707,29 @@ body.no-scroll { overflow: hidden; }
     <section class="section" id="testimonials">
       <div class="container">
         <div class="section-head section-head--center reveal">
-          <span class="eyebrow">לקוחות מספרים</span>
-          <h2>מה אומרים <em>אחרי התספורת.</em></h2>
+          <span class="eyebrow">המלצות</span>
+          <h2>לקוחות <em>ממליצים.</em></h2>
         </div>
         <div class="testi__grid">
           <article class="testi-card reveal" data-delay="1">
             <div class="stars" aria-label="חמישה כוכבים">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg>
             </div>
-            <p class="quote">״הגעתי במקרה כשהספר שלי לא יכל, ומאז נשארתי. אין יוחאי זה יוחאי, מקצוען.״</p>
+            <p class="quote">״הגעתי במקרה כשהספר הקבוע שלי היה בחופש, ומאז נשארתי. הוא פשוט מדייק, ולא משחרר אותך עם משהו עקום.״</p>
             <div class="who"><div class="av">א</div><div><div class="nm">אופיר</div><div class="rl">לקוח קבוע</div></div></div>
           </article>
           <article class="testi-card reveal" data-delay="2">
             <div class="stars" aria-label="חמישה כוכבים">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg>
             </div>
-            <p class="quote">״השקעה מהשניה הראשונה. הוא שואל, מקשיב, ורק אז מתחיל לעבוד. יוצא מרוצה כל פעם מחדש.״</p>
-            <div class="who"><div class="av">נ</div><div><div class="nm">נועם</div><div class="rl">מגיע כל בשבועיים</div></div></div>
+            <p class="quote">״אין הרגשה של פס ייצור. הוא שואל, מקשיב, ורק אז מתחיל לעבוד. יצאתי בדיוק עם מה שביקשתי.״</p>
+            <div class="who"><div class="av">נ</div><div><div class="nm">נועם</div><div class="rl">מגיע כל שלושה שבועות</div></div></div>
           </article>
           <article class="testi-card reveal" data-delay="3">
             <div class="stars" aria-label="חמישה כוכבים">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7-6.3-4.4L5.7 20l2.3-7-6-4.6h7.6z"/></svg>
             </div>
-            <p class="quote">״קבעתי בוואטסאפ תוך דקה, הגעתי בשעה שסגרנו ונכנסתי ישר לכיסא. והדירוג יצא הצגה.״</p>
+            <p class="quote">״קבעתי בוואטסאפ תוך דקה, הגעתי בשעה שסגרנו ונכנסתי ישר לכיסא. והפייד יצא חד.״</p>
             <div class="who"><div class="av">ט</div><div><div class="nm">טל</div><div class="rl">לקוח חדש</div></div></div>
           </article>
         </div>
@@ -741,8 +750,9 @@ body.no-scroll { overflow: hidden; }
             <fieldset class="field">
               <legend>שירות <span class="req">*</span></legend>
               <div class="svc-select">
-                <label class="svc-opt"><input type="radio" name="service" value="תספורת"><span class="ck"></span><span class="info"><span class="nm">תספורת</span><span class="pr"><span class="num">₪80</span></span></span></label>
-                <label class="svc-opt"><input type="radio" name="service" value="עיצוב זקן"><span class="ck"></span><span class="info"><span class="nm">עיצוב זקן</span><span class="pr"><span class="num">₪50</span></span></span></label>
+                <label class="svc-opt"><input type="radio" name="service" value="תספורת קלאסית"><span class="ck"></span><span class="info"><span class="nm">תספורת קלאסית</span><span class="pr"><span class="num">₪70</span></span></span></label>
+                <label class="svc-opt"><input type="radio" name="service" value="תספורת קלאסית + זקן"><span class="ck"></span><span class="info"><span class="nm">קלאסית + זקן</span><span class="pr"><span class="num">₪70</span></span></span></label>
+                <label class="svc-opt"><input type="radio" name="service" value="תספורת פרימיום"><span class="ck"></span><span class="info"><span class="nm">תספורת פרימיום</span><span class="pr"><span class="num">₪130</span></span></span></label>
               </div>
               <p class="err" id="errService" aria-live="polite">בחר שירות כדי להמשיך.</p>
             </fieldset>
@@ -788,7 +798,7 @@ body.no-scroll { overflow: hidden; }
             <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.6 6.3A7.9 7.9 0 0 0 12 4a8 8 0 0 0-6.9 12l-1 3.6 3.7-1A8 8 0 1 0 17.6 6.3zM12 18.5a6.5 6.5 0 0 1-3.3-.9l-.24-.14-2.2.58.59-2.14-.16-.25A6.5 6.5 0 1 1 12 18.5zm3.6-4.9c-.2-.1-1.17-.58-1.35-.64s-.31-.1-.45.1-.51.64-.63.78-.23.15-.43.05a5.3 5.3 0 0 1-2.65-2.32c-.2-.34.2-.32.57-1.05a.36.36 0 0 0 0-.34c0-.1-.45-1.08-.62-1.48s-.33-.34-.45-.34h-.39a.74.74 0 0 0-.53.25 2.23 2.23 0 0 0-.7 1.66 3.87 3.87 0 0 0 .81 2.05 8.86 8.86 0 0 0 3.39 3 11.4 11.4 0 0 0 1.13.42 2.72 2.72 0 0 0 1.25.08c.38-.06 1.17-.48 1.34-.94s.17-.86.12-.94-.18-.13-.38-.23z"/></svg></span>
             <span><span class="k">וואטסאפ</span><span class="v num">052 773 8538</span></span>
           </a>
-          <p class="contact__reply">מחכה לשיחה ממך.</p>
+          <p class="contact__reply">אם אני באמצע תספורת, אענה ברגע שאתפנה.</p>
         </div>
 
         <div class="contact__visual reveal" data-delay="1">
@@ -856,7 +866,7 @@ body.no-scroll { overflow: hidden; }
   const Validate = {
     name(v) {
       const t = (v || "").trim();
-      if (t.length < 2) return "כתוב כאן איך קוראים לך.";
+      if (t.length < 2) return "כתוב לי איך קוראים לך.";
       if (!/[\u0590-\u05FFa-zA-Z]/.test(t)) return "השם שהוזן לא נראה תקין.";
       return "";
     },
